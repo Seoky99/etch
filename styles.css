@@ -1,15 +1,18 @@
 body {
     display:flex;
     align-items: center; 
+    justify-content: space-around;
+    gap: 30px; 
 }
 
 .options {
     flex: 1; 
+    border: 3px solid black;
+    padding: 30vh 0px;
 }
 
 .board {
-
-    flex-grow: 1;
+    flex: 2 0 0;
     display: flex;
     flex-direction: column;
 
